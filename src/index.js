@@ -33,24 +33,24 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/',
+        path: '/projeto-react',
         element: <Home />
       },
       {
-        path: "/contato",
+        path: "/projeto-react/contato",
         element: <Contato />
       },
       {
-        path: "/sobre",
+        path: "/projeto-react/sobre",
         element: <Sobre />
       },
       {
-        path: "/indicacoes",
+        path: "/projeto-react/indicacoes",
         element: <Indicacoes />
       },
 
       {
-        path: "/Form",
+        path: "/projeto-react/Form",
         element: <Form/>
       },
    
