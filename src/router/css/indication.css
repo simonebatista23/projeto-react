@@ -1,0 +1,135 @@
+.indication-container{
+    display: grid;
+    grid-template-areas: 
+    "indications indications indications indications"  ;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+}
+
+
+.indications{
+    grid-area: indications;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* margin-top: 5px; */
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+}
+
+.indication{
+    background-color: blue;
+}
+
+
+
+.project {
+    position: relative;
+} 
+
+.abas {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+}
+.about{
+    display:none;
+}
+.aba.selecionado {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .about {
+    display: none;
+  }
+  
+  .about.selecionado {
+    display: block;
+  }
+.about p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    background-color: #000;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.aba {
+    background-color: #1C1C1C;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+}
+
+.aba:hover {
+    scale: 1.1;
+}
+
+.abas  li, p{
+    font-size: 12px;
+}
+
+
+.projects img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.projects a:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.projects img:hover {
+    scale: 1.1;
+}
+
+
+
+@media(max-width:968px){
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+@media(max-width:768px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+   
+}
+
+@media(max-width:575px) {
+    .projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+  
+}
+
+@media(max-width:768px){
+    .indications{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media(max-width:525px){
+    .indications{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
