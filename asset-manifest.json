@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto-react/static/css/main.ad267205.css",
-    "main.js": "/projeto-react/static/js/main.47a5824a.js",
+    "main.css": "/projeto-react/static/css/main.bc57152d.css",
+    "main.js": "/projeto-react/static/js/main.dd1d4652.js",
     "static/js/453.98c8be4d.chunk.js": "/projeto-react/static/js/453.98c8be4d.chunk.js",
     "static/media/ViuvaNegraP.jpg": "/projeto-react/static/media/ViuvaNegraP.c54f270b32736edaf2ba.jpg",
     "static/media/aquaman1.webp": "/projeto-react/static/media/aquaman1.2b50ec60befb8e5ed2f2.webp",
@@ -28,12 +28,12 @@
     "static/media/AgenteStone.webp": "/projeto-react/static/media/AgenteStone.23d237effcfd0ac06852.webp",
     "static/media/seteVidas.webp": "/projeto-react/static/media/seteVidas.e3a65dc2fc7068122c3b.webp",
     "index.html": "/projeto-react/index.html",
-    "main.ad267205.css.map": "/projeto-react/static/css/main.ad267205.css.map",
-    "main.47a5824a.js.map": "/projeto-react/static/js/main.47a5824a.js.map",
+    "main.bc57152d.css.map": "/projeto-react/static/css/main.bc57152d.css.map",
+    "main.dd1d4652.js.map": "/projeto-react/static/js/main.dd1d4652.js.map",
     "453.98c8be4d.chunk.js.map": "/projeto-react/static/js/453.98c8be4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad267205.css",
-    "static/js/main.47a5824a.js"
+    "static/css/main.bc57152d.css",
+    "static/js/main.dd1d4652.js"
   ]
 }
